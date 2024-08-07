@@ -13,3 +13,41 @@ We really thank for the projects owners to allow for me to use their code.
    - This project optimizes the model.
 1. **Fast**
    - This project project run on RTX3050 and got 5 FPS.
+
+# Installation
+### Step 0: Clone This Repository
+```bash
+git clone https://github.com/ErenalpCet/StreamDiffusionWebcam.git
+```
+### Step 1: Create Environment Using Anaconda
+```bash
+conda create -n webcamdiffusion python=3.10
+```
+```bash
+conda activate webcamdiffusion
+```
+### Step 2: Install PyTorch GPU
+Select the appropriate version for your system.
+
+CUDA 11.8
+
+```bash
+pip3 install torch==2.1.0 torchvision==0.16.0 xformers --index-url https://download.pytorch.org/whl/cu118
+```
+
+CUDA 12.1
+
+```bash
+pip3 install torch==2.1.0 torchvision==0.16.0 xformers --index-url https://download.pytorch.org/whl/cu121
+```
+
+CUDA 12.4
+
+```bash
+pip3 install torch==2.1.0 torchvision==0.16.0 xformers --index-url https://download.pytorch.org/whl/cu124
+```
+
+# Quick Start
+```bash
+python3 main.py
+```
