@@ -49,11 +49,19 @@ CUDA 12.4
 ```bash
 pip3 install torch==2.1.0 torchvision==0.16.0 xformers --index-url https://download.pytorch.org/whl/cu124
 ```
-### Step 3: Install Requirements
+### Step 3: Install Stream Diffusion Library
+```bash
+pip install streamdiffusion[tensorrt]
+```
+### Step 4: Install TensorRT Extension
+```bash
+python -m streamdiffusion.tools.install-tensorrt
+```
+### Step 5: Install Requirements
 ```bash
 pip install -r requirements.txt
 ```
-### Step 4: Customize The Prompt
+### Step 6: Customize The Prompt
 In main.py line 149 and 150 please customize the prompts to your needs.
 
 # Quick Start
