@@ -51,7 +51,7 @@ pip3 install torch==2.1.0 torchvision==0.16.0 xformers --index-url https://downl
 ```
 ### Step 3: Install Requirements
 ```bash
-pip install -r /path/to/requirements.txt
+pip install -r requirements.txt
 ```
 ### Step 4: Customize The Prompt
 In main.py line 149 and 150 please customize the prompts to your needs.
