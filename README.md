@@ -51,7 +51,7 @@ pip3 install torch==2.1.0 torchvision==0.16.0 xformers --index-url https://downl
 ```
 ### Step 3: Install Stream Diffusion Library
 ```bash
-pip install streamdiffusion[tensorrt]
+pip install git+https://github.com/cumulo-autumn/StreamDiffusion.git@main#egg=streamdiffusion[tensorrt]
 ```
 ### Step 4: Install TensorRT Extension
 ```bash
