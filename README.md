@@ -19,6 +19,10 @@ We really thank for the projects owners to allow for me to use their code.
 ```bash
 git clone https://github.com/ErenalpCet/StreamDiffusionWebcam.git
 ```
+```bash
+cd StreamDiffusionWebcam
+```
+
 ### Step 1: Create Environment Using Anaconda
 ```bash
 conda create -n webcamdiffusion python=3.10
